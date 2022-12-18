@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    margin: 0;
+    font-family:"Roboto";
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8edf0;
+    width: 1520px;
+
+}
+.header-image{
+     margin-left: 245px;
+     margin-top: 10px;
+}
+.header-right{
+    margin-left:  200px;
+}
+.main-item, a{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex; 
+    gap: 40px;
+    font-weight: 400; 
+    font-size: 14px;
+    line-height: 18px;
+    color: #150101;
+}
+.header-navigation:hover{
+    color: #D23166;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+.header-btn:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #D23166;
+    width: 180px;
+    color: #fafafa;
+    font-weight: 700;
+    font-family: "Hind Madurai";
+    transition: 1s;
+}
+.header-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    border-radius: 5px;
+    background: #D23166;
+    width: 165px;
+    height: 49px;
+    color: #fafafa;
+    font-weight: 700;
+    font-family: "Hind Madurai";
+}
+.section-1{
+    width: 1520px;
+    height: 800px;
+    background-color: #f8edf0;
+    background-image: url(image/main-img.png);
+    background-repeat: no-repeat;
+    background-position-x: 690px;
+    background-position-y: 60px;
+}
+.section-1-content{
+    margin-left: 254px;
+    padding-top: 218px;
+}
+.content-main-text{
+    width: 172px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    vertical-align: top;
+    color: #0f0101;
+
+}
+.main-title{
+    width: 665px;
+    height: 130px;
+    opacity: 90%;
+    font-family: "Fredoka One";
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 69px;
+    color: #0f0101;
+    margin-top: 6px;
+    margin-bottom: 17.5px;
+}
+.main-span{
+    font-family: "Fredoka One";
+    font-weight: 500;
+    font-size: 57.33px;
+    line-height: 69px;
+    color: #D23166;
+}
+.main-text{
+    width: 523px;
+    height: 78px;
+    font-family: "Hind Madurai";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 17.5px;
+}
+.main-btn{
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #D23166;
+    color: #fafafa;
+    align-items: center;
+    justify-content: center;
+    font-family: "Hind Madurai";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 50px;
+}
+.main-btn:hover{
+    width: 180px;
+    border-radius: 5px;
+    background-color: #D23166;
+    color: #fafafa;
+    align-items: center;
+    justify-content: center;
+    font-family: "Hind Madurai";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 50px;
+    transition: 1s;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1520px;
+    height: 300px;
+    gap: 39px;
+}
+.section-2-content{
+    border: 1px solid #fbfbfb;
+    border-radius: 7px;
+    width: 250px;
+    height: 200px;
+}
+.section-2-content:hover{
+    border: 1px solid #eaeaea;
+    border-radius: 7px;
+    width: 300px;
+    transition: 1s;
+}
+.section-2-icon{
+    margin: 33px 92px 28px 107px;
+}
+.section-2-main-text{
+    width: 161px;
+    height: 28px;
+    font-family: "Hind Madurai";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 64px 9px 55px;
+}
+.section-2-span{
+    margin-left: 45px;
+}
+.section-2-text{
+    width: 198px;
+    height: 35px;
+    font-family: "Hind Madurai";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 60%;
+    color: #000000;
+    margin: 0 26px 27px 30px;
+}
+.section-3-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8edf0;
+    width: 1520px;
+    height: 537px;
+}
+.section-3-title{
+    width: 349px;
+    height: 98px;
+    font-family: "Hind Madurai";
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 49px;
+    color: #150101;
+}
+.main-text{
+    width: 442px;
+    height: 58px;
+    opacity: 60%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+}
+.section-4{
+    width: 1520px;
+    height: 1506px;
+    background-color: #fff;
+}
+.section-4-lists {
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    opacity: 60%;
+    color: #000000;
+}
+.item-nav:active{
+    border-bottom: 3px solid #D23166;
+    font-weight: 500;
+    line-height: 21px;
+    font-size: 18px;
+    color: #000000;
+}
+.section-4-main-title{
+    width: 238px;
+    height: 61px;
+    font-family: "Hind Madurai";
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 61px;
+    color: #150101;
+    display: flex;
+    justify-content: center;
+    margin: 137.31px 677px 32px 681px;
+}
+.section-4-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.section-4-info{
+    width: 300px;
+    margin-left: 85px;
+    margin-top: 110px;
+}
+.section-4-img{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.section-4-title{
+    width: 222px;
+    height: 36px;
+    font-family: "Hind Madurai";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    margin-right: 528px;
+    margin-bottom: 6px;
+}
+.section-4-text{
+    width: 454px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 70%;
+    margin-top: 5px;
+}
+.salary{
+    display: flex;
+    margin-top: 28px;
+    gap: 5px;
+}
+.salary-text{
+    font-family: "Hind Madurai";
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+.salary-text-end{
+    width: 58px;
+    height: 27px;
+    font-family: "Hind Madurai";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+    opacity: 70%;
+    text-decoration-line: line-through;
+}
+.section-4--btn{
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #D23166;
+    color: #fafafa;
+    align-items: center;
+    justify-content: center;
+    font-family: "Hind Madurai";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+.section-4--btn:hover{
+    width: 180px;
+    border-radius: 5px;
+    background-color: #D23166;
+    color: #fafafa;
+    align-items: center;
+    justify-content: center;
+    font-family: "Hind Madurai";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+    transition: 1s;
+}
+.section-4-container:nth-child(3){
+    flex-direction: row-reverse;
+    margin-left: 200px;
+}
+.section-4-text-2,.section-4-title-2,.salary-text-2,.section-4--btn-end:nth-last-child(3){
+    text-align: right;
+    width: 444px;
+}
+
+.lastt{
+    width: 165px;
+    height: 49px;
+    margin-left: 285px;
+
+}
+.section-5{
+    width: 1520px;
+    height: 678px;
+    background-color: #f8edf0;
+    margin-top: 82px;
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+}
+.section-5-image{
+    margin-left: 210px;
+}
+.section-5-title{
+    width: 642px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    margin: 55px 309px 10px 134px;
+}
+.section-5-text{
+    width: 607px;
+    height: 60px;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #0f0101;
+    margin-left: 134px;
+}
+.section-5-items{
+    list-style-type: none;
+}
+.section-5-link{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 19px 0 19px 175px;
+}
+.section-5-link-1{
+    margin-top: 31px;
+}
+.download-part{
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+}
+.download{
+    gap: 7px;
+    width: 200px;
+    height: 77px;
+    margin-left: 120px;
+}
+
+.section-6{
+    margin-top: 113px;
+    width: 1520px;
+    height: 565px;
+}
+.question-part{
+    display: flex;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+}
+.question-title{
+    width: 400px;
+    height: 123px;
+    margin:150px auto 18px;
+}
+.section-6-span{
+    display: flex;
+    justify-content: center;
+}
+.input-main-part{
+    display: flex;
+    align-items: center;
+}
+.input-part{
+    margin: 36px 25px 18px 525px;
+    width: 303px;
+    height: 74px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border: 2px solid #FFA3A3;
+}
+.input-main-part-2{
+    display: flex;
+    align-items: center;
+    
+}
+.select-option{
+    width: 303px;
+    height: 74px;
+    border-radius: 5px;
+    border: 2px solid #FFA3A3;
+    padding-left: 25px;
+}
+.questions{
+    width: 637px;
+    height: 74px;
+    margin-top: 19.5px;
+    margin-left: 525px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border: 2px solid #FFA3A3;
+}
+.section-6-btn{
+    margin-top: 20px;
+    width: 134px;
+    height: 74px;
+    background: #d64374;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 5px;
+    margin-left: 1027px;
+    position: absolute;
+}
+.section-6-btn:hover{
+    margin-top: 20px;
+    width: 144px;
+    height: 74px;
+    background: #d64374;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 5px;
+    margin-left: 1027px;
+    position: absolute;
+}
+.footer{
+    display: flex;
+    width: 1520px;
+    height: 408.16pm;
+    background-color: #0A0808;
+    margin-top: 71px;
+}
+.footer-container-1{
+    background-image: url(image/footer-main-icon.svg);
+    background-position:  241px 115.78px;
+    background-repeat: no-repeat;
+
+}
+.footer-container-1-text{
+    padding-top: 200px;
+    margin-left: 248px;
+    width: 207px;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.about-socials{
+    color: #fff;
+    margin-top: 24.53px;
+    margin-left: 248px;
+    width: 46px;
+    height: 13.74px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+    margin-left: 248px;
+    margin-top: 8px;
+    
+}
+.socials-icon{
+    width: 15px;
+    height: 14.72px;
+}
+
+.footer-links{
+    color: #fff;
+    padding-bottom: 9.81px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+.footer-links:active{
+    color: #D23166;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+.footer-item{ 
+    margin: 187.4px 0 106px 37px;
+    list-style-type: none;
+
+}
+.footer-item-last{
+    margin-top: 194px;
+    margin-left: 132px;
+}
+.payments{
+    display: flex;
+    gap: 15px;
+    margin-top: 130px;
+    padding-left: 154px;
+}
+.footer-last-title{
+    color: #fff;
+    margin: 33px 0 12.75px 151px;
+    width: 78px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.footer-info{
+    display: flex;
+}
+.footer-last-btn{
+    width: 125px;
+    height: 53.96px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background: #d64374;
+    margin-left: 411px;
+    color: #fff;
+    position: absolute;
+}
+.footer-last-btn:hover{
+    width: 135px;
+    height: 53.96px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background: #d64374;
+    margin-left: 411px;
+    color: #fff;
+    position: absolute;
+}
+.footer-input{
+    width: 388px;
+    height: 53.96px;
+    border-radius: 5px;
+    border: 2px solid #d64374;
+    background: #0A0808;
+    color: #fff;
+    padding-left: 32px;
+    margin-left: 150px;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
